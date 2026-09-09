@@ -16,17 +16,39 @@ const ejercicios = [
   "15. Crear un objeto con nombre, edad y hobby, y mostrar sus datos"
 ];
 
-console.log('1. ¡Hola, mundo!');
-console.log('Me llamo Francisco!');
+//console.log('1. ¡Hola, mundo!');
+//console.log('Me llamo Francisco!');
 
-const nombre = "Francisco";
-const edad = 25;
-const ciudad = "Madrid";
+//const nombre = "Francisco";
+//const edad = 25;
+//const ciudad = "Madrid";
 
-console.log(`2. Nombre: ${nombre}, Edad: ${edad}, Ciudad: ${ciudad}`);
+// console.log(`2. Nombre: ${nombre}, Edad: ${edad}, Ciudad: ${ciudad}`);
 
-const num1 = 10;
-const num2 = 5;
-const sumaDeNum1YDeNum2 = num1 + num2;
+//const num1 = 10;
+//const num2 = 5;
+//const sumaDeNum1YDeNum2 = num1 + num2;
 
-console.log(sumaDeNum1YDeNum2);
+//console.log(sumaDeNum1YDeNum2);
+//10
+//let num1 = 9
+//let num2 = 8
+//let determinarSiNum1EsMayorQueNum2 = num1 > num2;
+
+//let mensajito;
+//if (determinarSiNum1EsMayorQueNum2) {
+//  mensajito = 'SI';
+//} else {
+//  mensajito = 'NO';
+//}
+
+//console.log(determinarSiNum1EsMayorQueNum2);
+//console.log(`el numero ${num1} es mayor que ${num2}???? Resultado: ${mensajito}`)
+let n1 = 8
+
+let resultado = n1 % 2;
+if (resultado === 0) {
+  console.log(`El numero ${n1} es par`);
+} else {
+  console.log('Es IMPAR');
+}
