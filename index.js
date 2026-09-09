@@ -17,6 +17,7 @@ const ejercicios = [
 ];
 
 console.log('1. ¡Hola, mundo!');
+console.log('Me llamo Francisco!');
 
 const nombre = "Francisco";
 const edad = 25;
@@ -29,5 +30,3 @@ const num2 = 5;
 const sumaDeNum1YDeNum2 = num1 + num2;
 
 console.log(sumaDeNum1YDeNum2);
-
-// console.log(`3. La suma de ${num1} y ${num2} es: ${num1 + num2}`);
